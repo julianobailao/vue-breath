@@ -1,0 +1,40 @@
+/** Stylus Styles */
+
+// Available variables https://github.com/vuetifyjs/vuetify/blob/master/src/stylus/settings/_variables.styl
+
+@import '../../node_modules/vuetify/src/stylus/main'
+
+.rounded-0
+  border-radius 0 !important
+
+.max-height-150
+  max-height 150px
+
+.primary-text-color
+  color #fff
+
+.card
+  .card__title
+    display flex
+    flex-direction column
+    align-items flex-start
+    justify-content center
+
+    .title__main,
+    .title__sub
+      margin 0
+      padding 0
+
+    .title__main
+      font-size 22px
+      font-weight bold
+
+      & + .title__sub
+        margin-top 5px
+
+    .title__sub
+      font-size 16px
+
+.breadcrumbs
+  .toolbar__title
+    line-height 40px
